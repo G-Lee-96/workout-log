@@ -20,8 +20,8 @@
   gap: 0.25rem;
 }
 .navbar-icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 .active .navbar-icon path {
   fill: var(--primary-blue);
