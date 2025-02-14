@@ -6,10 +6,18 @@
   ],
   "compilerOptions": {
     "types": ["react", "react-dom"],
-
-    "moduleResolution": "node",
+    "module": "Node16",
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "target": "ESNext",
+    "jsx": "react-jsx",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
